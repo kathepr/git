@@ -10,6 +10,8 @@ Configurar credenciales
 4. Ver estado actual del repositorio: git status
 5. Subir a Staged Changes un archivo: git add README.md (nombre del archivo)
 6. Bajar /Revertir un archivo de Staged changes: git reset README.md (nombre del archivo)
+7. Escribir commit: git commit -m "mensaje"
+
 
 
 
@@ -36,3 +38,11 @@ https://www.conventionalcommits.org/en/v1.0.0/
 7. chore: Refleja cambios en tareas de construcción o configuración, así como en otras actividades que no modifican el código fuente en sí.
 
 
+
+HACER EL COMMIT:
+ejemplo:
+git commit -m "feat: :tada: Configutación básica de la web
+> 
+> Creación del entorno y archivo de documentación y configuración del gitignore
+> 
+> "
