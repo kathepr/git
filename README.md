@@ -5,6 +5,8 @@ Configurar credenciales
 * Renombrar la rama master a main: git branch -m master main
 
 
+* Para crear un archivo denominado index.html: touch index.html
+
 1. Inicializar repositorio: git init
 2. ¿En que rama estoy parada? git branch
 3. Ver configuración: nano ~/.gitconfig
@@ -54,3 +56,4 @@ git commit -m "feat: :tada: Configutación básica de la web
 > Creación del entorno y archivo de documentación y configuración del gitignore
 > 
 > "
+
