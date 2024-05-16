@@ -13,15 +13,6 @@ Configurar credenciales
 4. Ver estado actual del repositorio: git status
 5. Subir a Staged Changes un archivo: git add README.md (nombre del archivo)
 6. Bajar /Revertir un archivo de Staged changes: git reset README.md (nombre del archivo)
-7. Escribir commit: git commit -m "mensaje"
-8. Para mostrar el historial de commits en una sola línea por cada commit: git log --oneline
-
-9. Para cambiar el estado del árbol de trabajo y el HEAD al commit especificado: git checkout <commit> ejemplo: git checkout 0b48dd7, estás solicitando cambiar al commit con el identificador único (hash) 0b48dd7.
-
-10. Para salirme: git checkout master/main (te vas de nuevo a la principal)
-
-11. Para corregir un commit: git commit --amend
-
 
 
 
@@ -57,3 +48,11 @@ git commit -m "feat: :tada: Configutación básica de la web
 > 
 > "
 
+
+HACER EL COMMIT:
+ejemplo:
+git commit -m "feat: :tada: Configutación básica de la web
+> 
+> Creación del entorno y archivo de documentación y configuración del gitignore
+> 
+> "
